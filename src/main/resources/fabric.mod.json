@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "glowingdrops",
+  "version": "${version}",
+  "name": "Glowing Drops",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "mixins": [
+    "glowingdrops.client.mixins.json"
+  ]
+}
