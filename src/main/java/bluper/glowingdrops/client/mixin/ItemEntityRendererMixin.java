@@ -19,7 +19,7 @@ public class ItemEntityRendererMixin {
       method = "render(Lnet/minecraft/entity/ItemEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V")
   public void render(ItemEntity itemEntity, float f, float g, MatrixStack matrixStack,
                      VertexConsumerProvider vertexConsumerProvider, int i, CallbackInfo ci) {
-    if (itemEntity.isOnGround()) {
+    if (itemEntity.isOnGround() || itemEntity.isInFluid()) {
       matrixStack.push();
       MatrixStack.Entry entry = matrixStack.peek();
       ItemStack itemStack = itemEntity.getStack();
