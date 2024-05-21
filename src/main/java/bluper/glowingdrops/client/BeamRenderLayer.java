@@ -17,6 +17,8 @@ public class BeamRenderLayer extends RenderLayer {
         .writeMaskState(RenderPhase.COLOR_MASK)
         .build(false);
 
+
+
     return RenderLayer.of("lootbeam", VertexFormats.POSITION_COLOR_TEXTURE,
         VertexFormat.DrawMode.QUADS, 256, false, true, multiPhaseParameters);
   }
