@@ -3,8 +3,11 @@
   "id": "glowingdrops",
   "version": "${version}",
   "name": "Glowing Drops",
-  "description": "",
-  "authors": [],
+  "description": "Never lose dropped items again!",
+  "authors": [
+    "Bluperman949"
+  ],
+  "icon": "icon.png",
   "contact": {},
   "license": "All-Rights-Reserved",
   "environment": "client",
