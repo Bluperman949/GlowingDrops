@@ -1,5 +1,5 @@
 # Glowing Drops
-Glowing Drops is a Fabric mod for Minecraft 1.20.6.  
+Glowing Drops is a Fabric mod for Minecraft 1.20.5.  
 
 This mod renders a **beacon-like glowing beam** over every dropped item. Larger stacks get a brighter beam. The color of the beam depends on the rarity of the item.  
 Only vanilla rarities have been tested. If you find any compatibilty issues, please report them on the [issue tracker](https://github.com/Bluperman949/glowingdrops-mod/issues).  
